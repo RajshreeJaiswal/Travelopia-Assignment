@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css">
+    <title>Travelopia</title>
+    
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div>
+            <h2>Travelopia <i class="fa-solid fa-plane-departure"></i><h2>
+            
+        </div>
+        <div class="navbar-icon">
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="overlay">
+        <div class="img_container">
+            <img src="https://wallpapercave.com/wp/C5gsPJq.jpg" alt="WallPaperCave"/>
+            </div>
+            <div class="text-overlay"></div>
+            <div class="content">
+                <h1 id="title">Welcome to Travelopia</h1>
+                <p>Journey Beyond Your Imagination</p>
+                <button class="btn" onclick="showBox()">Click Here</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+        <p style="color:black">All rights reserved &copy; 2023</p>
+         </div>
+    </footer>   
+</body>
+</html>
+<script>
+    const showBox=()=>{
+        Swal.fire("Hello, World");
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body,html {
+    padding: 0;
+    margin: 0;
+    height: 100%;  
+    font-family: 'Inter', sans-serif;
+    /* overflow: hidden; */
+}
+header {
+    height: 100px;
+  }
+  
+
+/* Navbar */
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+  /* image */
+  /* #overlay {
+    height: calc(100vh - 300px);
+    width: 100vw;
+    position: relative;
+  } */
+  .img_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /* overflow: hidden; */
+    height: 83.5vh;  
+  }
+  .img_container img {
+    object-fit: cover;
+  }
+  .text-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height: 83.5vh;
+    background-image: linear-gradient(
+      to bottom left,
+      rgb(45, 149, 150, 0.8),
+      rgba(155, 250, 225, 0.8)
+    );
+  }
+
+
+/* button */
+  .btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    color: var(--primary);
+    border-radius: 25px;
+    background-color: rgb(78, 185, 185);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .btn:hover {
+    transform: translateY(5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+
+  /* main  content */
+  .content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #title {
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center; 
+  }
+  
+  p{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 3px;
+  }
+
+
+
+
+/* Footer */
+  footer {
+    height: 100px;
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer p:nth-child(1) {
+    color: var(--primary);
+  }
+
