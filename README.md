@@ -17,6 +17,8 @@ Travelopia – a single-page component blending a sleek 100px navbar,100px foote
 ## Responsiveness
 
 * Mobile View
+
   ![Screenshot 2](https://github.com/RajshreeJaiswal/Travelopia-Assignment/blob/main/screenshots/Mobile.png)
 * Desktop View
-  ![Screenshot 1](https://github.com/RajshreeJaiswal/Travelopia-Assignment/blob/main/screenshots/Desktop%20(1).png)
+
+   ![Screenshot 1](https://github.com/RajshreeJaiswal/Travelopia-Assignment/blob/main/screenshots/Desktop%20(1).png)
