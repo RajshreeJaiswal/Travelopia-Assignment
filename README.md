@@ -20,7 +20,7 @@ Travelopia – a single-page component blending a sleek 100px navbar,100px foote
 
 ## Tech Stack Used
 
-- HTML: Forming a structure and a content for the web page.
+- HTML: Forming a structure and giving content for the web page.
 - CSS: Give the UI, styling of the page.
 - Javascript: Functionality to the displaying alert.
 - Responsive Design: Media Queries and flex layouts for responsiveness.
