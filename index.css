@@ -18,6 +18,8 @@ body,html {
     height: 100px;
     gap: 50%;
 }
+
+
   .img_container {
     position: relative;
     overflow: hidden;
@@ -98,4 +100,32 @@ body,html {
   .footer p:nth-child(1) {
     color: var(--primary);
   }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    #title {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .navbar-icon {
+        display: block;
+    }
+    .navbar-icon i {
+        font-size: 24px;
+    }
+}
 
